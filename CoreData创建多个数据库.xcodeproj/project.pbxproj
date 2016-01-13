@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD28EFC91C292D36007EB348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFC81C292D36007EB348 /* main.m */; };
+		BD28EFCC1C292D36007EB348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFCB1C292D36007EB348 /* AppDelegate.m */; };
+		BD28EFCF1C292D36007EB348 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFCE1C292D36007EB348 /* ViewController.m */; };
+		BD28EFD21C292D36007EB348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD28EFD01C292D36007EB348 /* Main.storyboard */; };
+		BD28EFD41C292D36007EB348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD28EFD31C292D36007EB348 /* Images.xcassets */; };
+		BD28EFD71C292D36007EB348 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD28EFD51C292D36007EB348 /* LaunchScreen.xib */; };
+		BD28EFE31C292D36007EB348 /* CoreData_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFE21C292D36007EB348 /* CoreData_______Tests.m */; };
+		BD28EFEE1C292D87007EB348 /* Student.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFEC1C292D87007EB348 /* Student.xcdatamodeld */; };
+		BD28EFF11C292D9F007EB348 /* Teacher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFEF1C292D9F007EB348 /* Teacher.xcdatamodeld */; };
+		BD28EFF41C292DEF007EB348 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFF31C292DEF007EB348 /* Student.m */; };
+		BD28EFF71C292DFA007EB348 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28EFF61C292DFA007EB348 /* Teacher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD28EFDD1C292D36007EB348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD28EFBB1C292D36007EB348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD28EFC21C292D36007EB348;
+			remoteInfo = "CoreData创建多个数据库";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD28EFC31C292D36007EB348 /* CoreData创建多个数据库.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData创建多个数据库.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD28EFC71C292D36007EB348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD28EFC81C292D36007EB348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD28EFCA1C292D36007EB348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD28EFCB1C292D36007EB348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD28EFCD1C292D36007EB348 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD28EFCE1C292D36007EB348 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD28EFD11C292D36007EB348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD28EFD31C292D36007EB348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD28EFD61C292D36007EB348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD28EFDC1C292D36007EB348 /* CoreData创建多个数据库Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreData创建多个数据库Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD28EFE11C292D36007EB348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD28EFE21C292D36007EB348 /* CoreData_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CoreData_______Tests.m"; sourceTree = "<group>"; };
+		BD28EFED1C292D87007EB348 /* Student.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Student.xcdatamodel; sourceTree = "<group>"; };
+		BD28EFF01C292D9F007EB348 /* Teacher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teacher.xcdatamodel; sourceTree = "<group>"; };
+		BD28EFF21C292DEF007EB348 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BD28EFF31C292DEF007EB348 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		BD28EFF51C292DFA007EB348 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		BD28EFF61C292DFA007EB348 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD28EFC01C292D36007EB348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD28EFD91C292D36007EB348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD28EFBA1C292D36007EB348 = {
+			isa = PBXGroup;
+			children = (
+				BD28EFC51C292D36007EB348 /* CoreData创建多个数据库 */,
+				BD28EFDF1C292D36007EB348 /* CoreData创建多个数据库Tests */,
+				BD28EFC41C292D36007EB348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD28EFC41C292D36007EB348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD28EFC31C292D36007EB348 /* CoreData创建多个数据库.app */,
+				BD28EFDC1C292D36007EB348 /* CoreData创建多个数据库Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD28EFC51C292D36007EB348 /* CoreData创建多个数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				BD28EFCA1C292D36007EB348 /* AppDelegate.h */,
+				BD28EFCB1C292D36007EB348 /* AppDelegate.m */,
+				BD28EFCD1C292D36007EB348 /* ViewController.h */,
+				BD28EFCE1C292D36007EB348 /* ViewController.m */,
+				BD28EFEC1C292D87007EB348 /* Student.xcdatamodeld */,
+				BD28EFF21C292DEF007EB348 /* Student.h */,
+				BD28EFF31C292DEF007EB348 /* Student.m */,
+				BD28EFEF1C292D9F007EB348 /* Teacher.xcdatamodeld */,
+				BD28EFF51C292DFA007EB348 /* Teacher.h */,
+				BD28EFF61C292DFA007EB348 /* Teacher.m */,
+				BD28EFD01C292D36007EB348 /* Main.storyboard */,
+				BD28EFD31C292D36007EB348 /* Images.xcassets */,
+				BD28EFD51C292D36007EB348 /* LaunchScreen.xib */,
+				BD28EFC61C292D36007EB348 /* Supporting Files */,
+			);
+			path = "CoreData创建多个数据库";
+			sourceTree = "<group>";
+		};
+		BD28EFC61C292D36007EB348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD28EFC71C292D36007EB348 /* Info.plist */,
+				BD28EFC81C292D36007EB348 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD28EFDF1C292D36007EB348 /* CoreData创建多个数据库Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD28EFE21C292D36007EB348 /* CoreData_______Tests.m */,
+				BD28EFE01C292D36007EB348 /* Supporting Files */,
+			);
+			path = "CoreData创建多个数据库Tests";
+			sourceTree = "<group>";
+		};
+		BD28EFE01C292D36007EB348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD28EFE11C292D36007EB348 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD28EFC21C292D36007EB348 /* CoreData创建多个数据库 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD28EFE61C292D36007EB348 /* Build configuration list for PBXNativeTarget "CoreData创建多个数据库" */;
+			buildPhases = (
+				BD28EFBF1C292D36007EB348 /* Sources */,
+				BD28EFC01C292D36007EB348 /* Frameworks */,
+				BD28EFC11C292D36007EB348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreData创建多个数据库";
+			productName = "CoreData创建多个数据库";
+			productReference = BD28EFC31C292D36007EB348 /* CoreData创建多个数据库.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD28EFDB1C292D36007EB348 /* CoreData创建多个数据库Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD28EFE91C292D36007EB348 /* Build configuration list for PBXNativeTarget "CoreData创建多个数据库Tests" */;
+			buildPhases = (
+				BD28EFD81C292D36007EB348 /* Sources */,
+				BD28EFD91C292D36007EB348 /* Frameworks */,
+				BD28EFDA1C292D36007EB348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD28EFDE1C292D36007EB348 /* PBXTargetDependency */,
+			);
+			name = "CoreData创建多个数据库Tests";
+			productName = "CoreData创建多个数据库Tests";
+			productReference = BD28EFDC1C292D36007EB348 /* CoreData创建多个数据库Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD28EFBB1C292D36007EB348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ios;
+				TargetAttributes = {
+					BD28EFC21C292D36007EB348 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BD28EFDB1C292D36007EB348 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BD28EFC21C292D36007EB348;
+					};
+				};
+			};
+			buildConfigurationList = BD28EFBE1C292D36007EB348 /* Build configuration list for PBXProject "CoreData创建多个数据库" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD28EFBA1C292D36007EB348;
+			productRefGroup = BD28EFC41C292D36007EB348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD28EFC21C292D36007EB348 /* CoreData创建多个数据库 */,
+				BD28EFDB1C292D36007EB348 /* CoreData创建多个数据库Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD28EFC11C292D36007EB348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD28EFD21C292D36007EB348 /* Main.storyboard in Resources */,
+				BD28EFD71C292D36007EB348 /* LaunchScreen.xib in Resources */,
+				BD28EFD41C292D36007EB348 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD28EFDA1C292D36007EB348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD28EFBF1C292D36007EB348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD28EFF11C292D9F007EB348 /* Teacher.xcdatamodeld in Sources */,
+				BD28EFF71C292DFA007EB348 /* Teacher.m in Sources */,
+				BD28EFCF1C292D36007EB348 /* ViewController.m in Sources */,
+				BD28EFCC1C292D36007EB348 /* AppDelegate.m in Sources */,
+				BD28EFC91C292D36007EB348 /* main.m in Sources */,
+				BD28EFEE1C292D87007EB348 /* Student.xcdatamodeld in Sources */,
+				BD28EFF41C292DEF007EB348 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD28EFD81C292D36007EB348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD28EFE31C292D36007EB348 /* CoreData_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD28EFDE1C292D36007EB348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD28EFC21C292D36007EB348 /* CoreData创建多个数据库 */;
+			targetProxy = BD28EFDD1C292D36007EB348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD28EFD01C292D36007EB348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD28EFD11C292D36007EB348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD28EFD51C292D36007EB348 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD28EFD61C292D36007EB348 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD28EFE41C292D36007EB348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD28EFE51C292D36007EB348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD28EFE71C292D36007EB348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CoreData创建多个数据库/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD28EFE81C292D36007EB348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CoreData创建多个数据库/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD28EFEA1C292D36007EB348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreData创建多个数据库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData创建多个数据库.app/CoreData创建多个数据库";
+			};
+			name = Debug;
+		};
+		BD28EFEB1C292D36007EB348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreData创建多个数据库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData创建多个数据库.app/CoreData创建多个数据库";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD28EFBE1C292D36007EB348 /* Build configuration list for PBXProject "CoreData创建多个数据库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD28EFE41C292D36007EB348 /* Debug */,
+				BD28EFE51C292D36007EB348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD28EFE61C292D36007EB348 /* Build configuration list for PBXNativeTarget "CoreData创建多个数据库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD28EFE71C292D36007EB348 /* Debug */,
+				BD28EFE81C292D36007EB348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD28EFE91C292D36007EB348 /* Build configuration list for PBXNativeTarget "CoreData创建多个数据库Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD28EFEA1C292D36007EB348 /* Debug */,
+				BD28EFEB1C292D36007EB348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD28EFEC1C292D87007EB348 /* Student.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD28EFED1C292D87007EB348 /* Student.xcdatamodel */,
+			);
+			currentVersion = BD28EFED1C292D87007EB348 /* Student.xcdatamodel */;
+			path = Student.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		BD28EFEF1C292D9F007EB348 /* Teacher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD28EFF01C292D9F007EB348 /* Teacher.xcdatamodel */,
+			);
+			currentVersion = BD28EFF01C292D9F007EB348 /* Teacher.xcdatamodel */;
+			path = Teacher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD28EFBB1C292D36007EB348 /* Project object */;
+}
